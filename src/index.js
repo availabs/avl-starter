@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 
 import { API_HOST, PROJECT_THEME } from 'config'
+// import { AUTH_HOST, PROJECT_NAME, CLIENT_HOST } from 'config'
 
 import get from "lodash.get"
 
@@ -36,7 +37,7 @@ import reportWebVitals from './reportWebVitals';
 
 import 'styles/tailwind.css';
 
-// const AuthEnabledApp = enableAuth(App, API_HOST);
+// const AuthEnabledApp = enableAuth(App, { AUTH_HOST, PROJECT_NAME, CLIENT_HOST });
 
 ReactDOM.render(
   <React.StrictMode>
