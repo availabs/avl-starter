@@ -22,8 +22,11 @@ import reportWebVitals from './reportWebVitals';
 // import DmsComponents from "components/dms"
 // import DmsWrappers from "components/dms/wrappers"
 
-// import AmsComponents from "components/ams"
-// import AmsWrappers, { enableAuth } from "components/ams/wrappers"
+// import {
+//   Components as AmsComponents,
+//   Wrappers as AmsWrappers,
+//   enableAuth
+// } from "@availabs/ams"
 
 // addComponents(DmsComponents);
 // addWrappers(DmsWrappers);

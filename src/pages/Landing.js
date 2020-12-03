@@ -4,6 +4,9 @@ const Landing = () =>
   <div className="flex-1 flex items-center justify-center flex-col">
     <div className="text-2xl font-bold">Welcome</div>
     <div className="text-xl">Please add new pages!</div>
+    <div className="flex items-center justify-center">
+      <img src="images/sadpanda.jpg"/>
+    </div>
   </div>
 
 const config = {
