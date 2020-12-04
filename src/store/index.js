@@ -3,10 +3,10 @@ import thunk from 'redux-thunk'
 
 import { falcorCache, messages } from "@availabs/avl-components"
 
-// import reducers from "components/ams/reducers"
+// import { Reducers } from "@availabs/ams"
 
 const reducer = combineReducers({
-  // ...reducers,
+  // ...Reducers,
   messages,
   falcorCache
 });
