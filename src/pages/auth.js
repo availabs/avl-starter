@@ -40,7 +40,7 @@ const AuthConfig = {
   ]
 }
 
-export default {
+const auth = {
   path: "/auth",
   mainNav: false,
   layoutSettings: {
@@ -50,3 +50,4 @@ export default {
   },
   component: AuthConfig
 }
+export default auth;
