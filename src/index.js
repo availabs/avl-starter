@@ -29,13 +29,13 @@ import reportWebVitals from './reportWebVitals';
 //   enableAuth
 // } from "@availabs/ams"
 
+import 'styles/tailwind.css';
+
 // addComponents(DmsComponents);
 // addWrappers(DmsWrappers);
 //
 // addComponents(AmsComponents);
 // addWrappers(AmsWrappers);
-
-import 'styles/tailwind.css';
 
 // const AuthEnabledApp = enableAuth(App, { AUTH_HOST, PROJECT_NAME, CLIENT_HOST });
 
